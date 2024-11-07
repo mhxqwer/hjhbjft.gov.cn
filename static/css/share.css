@@ -1,0 +1,17 @@
+#share{float: right;margin-top: -10px;}
+#share b{vertical-align: super;font-weight: normal;}
+#share a,#share a i{width:26px;height: 26px;}
+#share a{background:#c9c9c9 ;display: inline-block;cursor: pointer;border-radius: 13px;margin:0 4px 0 0;position: relative;}
+#share a i{display: block;background:url(../images/ico_share_20200422.png) no-repeat -30px center;-webkit-transition: .4s all;-moz-transition: .4s all;-ms-transition: .4s all;transition: .4s all;}
+ #share a i:hover{-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}
+#share a#weibo i{background-position:-65px center;}
+#share a#wechat:hover,#share a#wechat.active{background:#1fbc7d;}
+#share a#weibo:hover{background:#e96157;}
+#share-qrcode{border:1px solid #ddd;width:140px;padding:14px;position: absolute;display: none;z-index: 99;top:40px;left:-16px;background: #fff;border-radius: 3px;}
+#share-qrcode em,#share-qrcode span{display:block;width:30px;height:16px;font-size:30px;overflow:hidden;_position:relative;position:relative;}
+#share-qrcode em{margin-top:-22px;color:#ddd;font-style:normal;}
+#share-qrcode span{margin-top:-14px;color:white;}
+#share-qrcode h3{font-size: 14px;line-height: 40px;}
+#share a#qqzone i{background-position:4px center;}
+#share a#qqzone:hover{background:#e96157;}
+@media (max-width: 768px) {#share{display: none;}}
